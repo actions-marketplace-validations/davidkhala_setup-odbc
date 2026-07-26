@@ -1,12 +1,13 @@
-# davidkhala/setup-odbc
+# davidkhala/setup-msodbcsql
 
-Action for installing ODBC drivers in Github Runner
+Setup ODBC driver for mssql
+
 ## Use
 
 ```yaml
 steps:
 - uses: actions/checkout@main
-- uses: davidkhala/setup-odbc@main
+- uses: davidkhala/setup-msodbcsql@main
   with:
-    version: "18" # odbc driver version. Default to 18
+    version: "18" # ms odbc sql driver version. Default to 18
 ```

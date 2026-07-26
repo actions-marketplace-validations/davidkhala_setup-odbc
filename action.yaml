@@ -1,12 +1,12 @@
-name: "davidkhala/setup-odbc"
-description: 'Install ODBC driver in runner'
+name: "davidkhala/setup-msodbcsql"
+description: 'Setup ODBC driver for mssql'
 
 branding:
   icon: 'database'
   color: 'blue'
 inputs:
   version:
-    description: 'ODBC version to install'
+    description: 'msodbcsql version to install'
     required: false
     default: "18"
 runs:
